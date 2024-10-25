@@ -4,7 +4,7 @@ defmodule TypedStructNimbleOptions.MixProject do
   def project do
     [
       app: :typed_struct_nimble_options,
-      version: "0.1.0",
+      version: "0.1.1",
       description: "TypedStruct plugin for validation & documentation with NimbleOptions",
       package: [
         links: %{"GitHub" => "https://github.com/kzemek/typed_struct_nimble_options"},
