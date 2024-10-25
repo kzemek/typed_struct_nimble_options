@@ -40,8 +40,8 @@ defmodule Person do
   typedstruct do
     plugin TypedStructNimbleOptions
 
-    field :name, String.t(), enforce: true, type: :string, doc: "The name."
-    field :age, non_neg_integer(), type: :non_neg_integer, doc: "The age."
+    field :name, String.t(), enforce: true, doc: "The name."
+    field :age, non_neg_integer(), doc: "The age."
     field :happy?, boolean(), default: true
     field :attrs, %{optional(atom()) => String.t()}
   end
