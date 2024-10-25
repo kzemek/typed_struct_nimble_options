@@ -5,7 +5,7 @@
 [![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/typed_struct_nimble_options/)
 [![License](https://img.shields.io/hexpm/l/typed_struct_nimble_options.svg)](https://github.com/kzemek/typed_struct_nimble_options/blob/master/LICENSE)
 
-**TypedStructNimbleOptions** is a plugin for [TypedStruct](https://hex.pm/packages/typed_struct) that allows to to easily type, validate & document Elixir structs, all in one place and with little boilerplate.
+**TypedStructNimbleOptions** is a plugin for [TypedStruct](https://hex.pm/packages/typed_struct) that allows to easily type, validate & document Elixir structs, all in one place and with little boilerplate.
 
 It leverages [NimbleOptions](https://hex.pm/packages/nimble_options) for validation & documentation.
 Each `field` of TypedStruct is a key in the generated NimbleOptions schema.
